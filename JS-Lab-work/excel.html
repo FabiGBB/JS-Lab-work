@@ -1,0 +1,55 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <title>Full review - Fabien TUNCEL</title> 
+    <link href="css/style.css" rel="stylesheet">
+</head> 
+<body> 
+
+    <header> 
+        <nav> 
+            <ul> 
+                <li><a href="index.html">Home</a></li> 
+                <li><a href="excel.html">Excel</a></li> 
+            </ul> 
+        </nav> 
+    </header> 
+ 
+    <main> 
+        <h2><strong>Excel Functions</strong></h2>
+        
+        <div class="box">
+            <h3>Enter your numbers seperated by spaces</h3>
+            <form id="box-form" name="boxform">
+                <input type="text" id="numbers" name="numbers"><br><br>
+            </form>
+        </div>
+        
+        <form id="excel-form" name="excelform"> 
+            
+            <input type="radio" id="sum" name="calcul" value="Autosum" checked="checked">
+            <label for="sum">AutoSum</label><br>
+            <input type="radio" id="avg" name="calcul" value="Average">
+            <label for="avg">Average</label><br>
+            <input type="radio" id="max" name="calcul" value="Max">
+            <label for="max">Max</label><br>
+            <input type="radio" id="min" name="calcul" value="Min">
+            <label for="min">Min</label><br><br>
+
+            <input type="button2" id="btn" value="Calculate">
+        </form> 
+ 
+        <div id="result" class="result"> 
+            Result :
+        </div> 
+
+    </main> 
+ 
+    <footer> 
+        <p> ILAC & EFREI Partnership- HTML, CSS, and JavaScript Main Lab-work - Fabien TUNCEL </p> 
+    </footer> 
+
+    <script src="js/main.js"></script>
+</body> 
+</html> 

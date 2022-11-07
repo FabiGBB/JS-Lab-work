@@ -1,0 +1,155 @@
+header, footer{
+    border: solid 1px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(255, 195, 130);
+    color: black;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+nav ul{
+    margin: 5px;
+    padding: 20px;
+    color: rgb(255, 195, 130);
+    display: flex;
+    flex-direction: row;
+}
+
+nav li {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav a{
+    padding: 15px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgb(3, 33, 73);
+}
+
+nav a:hover{
+    color:#da4b3e
+}
+
+body {
+    background-color: grey;
+    /*background-image: url("ricardo-milos.gif");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+
+main {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 5px rgb(117, 117, 117);
+    padding: 20px;
+    background-color: white;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+    margin-bottom: 40px;
+    border-bottom: solid 2px;
+}
+
+form {
+    margin: 10px;
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=text], input[type=email] {
+    width: 300px;
+    padding: 10px 10px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border: 1px solid rgb(117, 117, 117);
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px rgb(210, 210, 210) inset;
+    background-color: rgb(247, 244, 244);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  input[type=button] {
+    width: 100px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  input[type=button]:hover {
+    background-color: #45a049;
+  }
+
+input[type=button2] {
+    width: 100px;
+    background-color: rgb(216, 216, 216);
+    padding: 14px 20px;
+    margin: auto;
+    text-align: center;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=button2]:hover {
+    background-color: rgb(179, 179, 179);
+}
+
+  input[type=reset] {
+    width: 100px;
+    background-color: #da4b3e;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  input[type=reset]:hover {
+    background-color: rgb(188, 24, 24);
+  }
+
+.result {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px;
+    margin-top: 20px;
+}
+
+  h2 {
+    color: black;
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 175%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
